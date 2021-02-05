@@ -1,0 +1,90 @@
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basic Vue Js - HelloWorld App</title>
+
+  <!-- https://google.github.io/material-design-icons/#icon-font-for-the-web -->
+  <!-- Using via Google Web Fonts -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <!-- https://tailwindcss.com/docs/installation -->
+  <!-- Using Tailwind via CDN -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+
+  <!-- https://v3.vuejs.org/guide/installation.html#release-notes -->
+  <!-- Vue CDN -->
+  <script src="https://unpkg.com/vue@next"></script>
+
+  <body>
+    <div id="background" class="w-screen  bg-gray-100">
+      <div id="innerBackground" class="mx-72  bg-white">
+        <div id="borderWrap">
+          <div id="topBor" class="h-48 border-opacity-0 bg-white object-center pt-2 flex justify-center items-center space-x-96" >
+            <!-- <i class="material-icons pl-0.5 ">menu</i> -->
+            <button class="h-25 w-20 p-5 hover:bg-gray-200 rounded-full"><img src="images/hamburger.png" class="h-10 w-10"></button>
+            <h2 class="font-serif font-medium text-4xl tracking-widest text-center uppercase "> t&nbsp;&nbsp;&nbsp; h&nbsp;&nbsp;&nbsp; 
+              o&nbsp;&nbsp;&nbsp; m&nbsp;&nbsp;&nbsp; a&nbsp;&nbsp;&nbsp; s&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              j&nbsp;&nbsp;&nbsp; o&nbsp;&nbsp;&nbsp; r&nbsp;&nbsp;&nbsp; d&nbsp;&nbsp;&nbsp; a&nbsp;&nbsp;&nbsp; n
+            </h2>
+            <button class="h-25 w-20 p-5 hover:bg-gray-200 rounded-full"><img src="images/email.png" class="h-8 w-10"></button>
+            <!-- <i class="material-icons pl-52">email</i> -->
+          </div>
+
+          <div id="secondBor" class="h-32 border-opacity-0 bg-gray-200 object-center  pt-2 flex justify-center items-center space-x-36">
+            <button>
+              <p class="uppercase font-sans text-pink-300 text-2xl font-medium tracking-wide">prints</p>
+            </button>
+            <button>
+              <p class="uppercase font-sans text-black text-2xl font-medium tracking-wide hover:text-white">limited edition print of the month</p>
+            </button>
+          </div>
+
+          <div id="thirdBor" class="h-32 border-opacity-0 bg-gray-300 object-center  pt-2 flex justify-center items-center space-x-36">
+            <button>
+              <p class="uppercase font-sans text-pink-300 text-2xl font-medium tracking-wide">All</p>
+            </button>
+            <button>
+              <p class="uppercase font-sans text-black text-2xl font-medium tracking-wide hover:text-gray-200">prints</p>
+            </button>
+          </div><br><br><br><br><br><br>
+        </div>
+        <div id="photo" class="flex justify-center items-center space-x-28">
+          <div id="pic1">
+            <button class=" hover:text-gray-400">
+              <img src="images/01.jpg" class="h-3/5"><br>
+              <p class="text-center text-3xl font-light tracking-wide">Half Moon</p>
+            </button> 
+          </div>
+
+          <div id="pic2">
+            <button class="hover:text-gray-400">
+              <img src="images/02.jpg" class="h-3/5"><br>
+              <p class="text-center text-3xl font-light tracking-wide">Under The Trees</p>
+            </button>
+          </div>
+        </div><br><br>
+
+        <div id="photo" class="flex justify-center items-center space-x-28">
+          <div id="pic1">
+           <button class=" hover:text-gray-400">
+             <img src="images/03.jpg" class="h-3/5"><br>
+             <p class="text-center text-3xl font-light tracking-wide">Summer Nights</p>
+            </button> 
+          </div>
+
+          <div id="pic2">
+            <button class="hover:text-gray-400">
+              <img src="images/04.jpg" class="h-3/5"><br>
+              <p class="text-center text-3xl font-light tracking-wide">Spring Road</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- my main.js -->
+    <script src="./main.js"></script>
+  </body>
+
+</head>
